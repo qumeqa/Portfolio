@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="icon" href="img/favicon-2.png" type="image/x-icon">
+  <title>Портфолио</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div class="header">
+      <a href="index.html" class="link column-3">Прокин Андрей</a>
+      <div class="with-icon column-3">
+        <p id="time">00:00</p>
+        <p>(+4 МСК)</p>
+      </div>
+      <ul class="column-3">
+          <li><a class="link" href="#!">Проекты</a></li>
+          <li><a class="link" href="#!">Навыки</a></li>
+      </ul>
+      <div class="column-3">
+        <a href="#!" class="with-icon link" style="float: right;">
+          <p>Telegram</p>
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="icon-path" d="M5.5 6.5H14.5M14.5 6.5L14.5 15.5M14.5 6.5L5.5 15.5" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+          </svg>            
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="container">
+      <div class="fake-header" style="height: 80px;"></div>
+      <div class="block">
+        <div class="column-1" style="display: grid; padding: 6px 0;">
+          <p>Я верю, что хороший интерфейс — это не только красиво, но и удобно. Моя цель — создать веб-пространство, где пользователи чувствуют себя как дома.</p>
+          <a href="#!" class="button" style="margin-top: auto;">
+            <p>Посмотреть проекты</p>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5.5 15.5H14.5M14.5 15.5L14.5 6.5M14.5 15.5L5.5 6.5" stroke="black" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>                    
+          </a>
+        </div>
+        <div class="column-1">
+        </div>
+        <div class="column-2">
+          <h1>Привет! Я графический дизайнер и фронтенд-разработчик</h1>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="block-2">
+        <h2>Проекты</h2>
+        <h2 class="decoration">[42]</h2>
+          <a href="#!" class="project">
+            <img src="img/1.png" alt="Фото">
+            <div class="description">
+              <h6>Название</h6>
+              <p>Тут может быть описание, длинное или короткое, впринцепе какое угодно. Щас получилось длинное.</p>
+            </div>
+          </a>
+          <a href="#!" class="project">
+            <img src="img/1.png" alt="Фото">
+            <div class="description">
+              <h6>Название</h6>
+              <p>Описание</p>
+            </div>
+          </a>
+          <a href="#!" class="project">
+            <img src="img/1.png" alt="Фото">
+            <div class="description">
+              <h6>Название</h6>
+              <p>Описание</p>
+            </div>
+          </a>
+          <a href="#!" class="project">
+            <img src="img/1.png" alt="Фото">
+            <div class="description">
+              <h6>Название</h6>
+              <p>Описание</p>
+            </div>
+          </a>
+      </div>
+      <div class="separator"></div>
+      <div class="block">
+        <h2>Навыки</h2>
+      </div>
+    </div>
+  </main>
+  <script>
+    document.querySelector('.link').addEventListener('mousedown', function(e) {
+        e.preventDefault(); // Предотвращает стандартное поведение
+    });
+  </script>
+</body>
+</html>
